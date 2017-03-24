@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+<div ng-app="mainApp" ng-controller="MainCtrl">
+    <div class="row">
+        <br />
+        <div class="col col-md-2">
+            <button ng-click="GetStatesData()" class="btn btn-default">
+                {{ loadStates ? "ReLoad" :"Load" }} States
+            </button>
+        </div>
+        <div class="col col-md-4">
+            <select ng-model="selectedState" class="btn btn-default"
+                    ng-options="state as state.Name  for state in states track by state.Id">
+                <option style="display:none" value="">select a State</option>
+            </select>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col col-md-2">
+            You selected: {{selectedState.Id}} 
+            </div>
+        </div>
+
+    </div>

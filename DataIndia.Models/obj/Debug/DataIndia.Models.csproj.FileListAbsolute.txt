@@ -1,0 +1,5 @@
+F:\Krishna\visual studio 2015\Projects\DataIndia\DataIndia.Models\bin\Debug\DataIndia.Models.dll
+F:\Krishna\visual studio 2015\Projects\DataIndia\DataIndia.Models\bin\Debug\DataIndia.Models.pdb
+F:\Krishna\visual studio 2015\Projects\DataIndia\DataIndia.Models\obj\Debug\DataIndia.Models.csprojResolveAssemblyReference.cache
+F:\Krishna\visual studio 2015\Projects\DataIndia\DataIndia.Models\obj\Debug\DataIndia.Models.dll
+F:\Krishna\visual studio 2015\Projects\DataIndia\DataIndia.Models\obj\Debug\DataIndia.Models.pdb
